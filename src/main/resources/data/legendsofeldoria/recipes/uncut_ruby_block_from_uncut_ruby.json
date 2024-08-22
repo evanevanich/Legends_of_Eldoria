@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "legendsofeldoria:uncut_ruby"
+    }
+  },
+  "result": {
+    "item": "legendsofeldoria:uncut_ruby_block"
+  }
+}
