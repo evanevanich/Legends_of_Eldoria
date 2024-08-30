@@ -45,6 +45,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.PERIDOT_GEM.get());
                         output.accept(ModItems.BRONZE_INGOT.get());
 
+                        output.accept(ModItems.ORE_DIVINING_ROD.get());
+
                         output.accept(ModBlocks.DWARVEN_STEEL_BLOCK.get());
                         output.accept(ModBlocks.ITHILANIUM_BLOCK.get());
                         output.accept(ModBlocks.RAW_ITHILANIUM_BLOCK.get());
