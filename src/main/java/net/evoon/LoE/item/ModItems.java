@@ -92,7 +92,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ORE_DIVINING_ROD = ITEMS.register("ore_divining_rod",
-            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+            () -> new MetalDetectorItem(new Item.Properties().durability(15)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
