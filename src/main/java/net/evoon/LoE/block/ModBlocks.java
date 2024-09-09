@@ -181,6 +181,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier <T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,6 +1,7 @@
 package net.evoon.LoE.item;
 
 import net.evoon.LoE.LoE;
+import net.evoon.LoE.item.custom.FuelItem;
 import net.evoon.LoE.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PickaxeItem;
@@ -91,8 +92,22 @@ public class ModItems {
     public static final RegistryObject<Item> PERIDOT_GEM = ITEMS.register("peridot_gem",
             () -> new Item(new Item.Properties()));
 
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
+            () -> new FuelItem(new Item.Properties(), 200));
+
+
+
     public static final RegistryObject<Item> ORE_DIVINING_ROD = ITEMS.register("ore_divining_rod",
             () -> new MetalDetectorItem(new Item.Properties().durability(15)));
+
+
+
+    public static final RegistryObject<Item> RAT_SKEWER = ITEMS.register("rat_skewer",
+            () -> new Item(new Item.Properties().food(ModFoods.RAT_SKEWER)));
+
+    public static final RegistryObject<Item> RAT_SKEWER_COOKED = ITEMS.register("rat_skewer_cooked",
+            () -> new Item(new Item.Properties().food(ModFoods.RAT_SKEWER_COOKED)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

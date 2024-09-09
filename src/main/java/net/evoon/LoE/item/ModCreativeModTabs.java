@@ -45,7 +45,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.PERIDOT_GEM.get());
                         output.accept(ModItems.BRONZE_INGOT.get());
 
+                        output.accept(ModItems.PINE_CONE.get());
+
                         output.accept(ModItems.ORE_DIVINING_ROD.get());
+
+                        output.accept(ModItems.RAT_SKEWER.get());
+                        output.accept(ModItems.RAT_SKEWER_COOKED.get());
 
                         output.accept(ModBlocks.DWARVEN_STEEL_BLOCK.get());
                         output.accept(ModBlocks.ITHILANIUM_BLOCK.get());
@@ -99,6 +104,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.UNCUT_PERIDOT_BLOCK.get());
                         output.accept(ModBlocks.REFINED_PERIDOT_BLOCK.get());
                         output.accept(ModBlocks.BRONZE_BLOCK.get());
+
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
                     .build());

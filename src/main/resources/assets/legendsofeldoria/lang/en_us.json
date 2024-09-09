@@ -26,7 +26,13 @@
   "item.legendsofeldoria.dwarven_steel": "Dwarven Steel",
   "item.legendsofeldoria.bronze_ingot": "Bronze Ingot",
 
+  "item.legendsofeldoria.pine_cone": "Pine Cone",
+
   "item.legendsofeldoria.ore_divining_rod": "Ore Divination Rune",
+  "tooltip.legendsofeldoria.ore_divining_rod.tooltip": "A Dwarvish Rune embued with the power to detect minerals underground",
+
+  "item.legendsofeldoria.rat_skewer": "Raw Rat Skewer",
+  "item.legendsofeldoria.rat_skewer_cooked": "Cooked Rat Skewer",
 
   "block.legendsofeldoria.raw_ithilanium_block": "Raw Ithilanium Block",
   "block.legendsofeldoria.ithilanium_block": "Ithilanium Block",
@@ -81,6 +87,8 @@
   "block.legendsofeldoria.dwarven_steel_block": "Dwarven Steel Block",
   "block.legendsofeldoria.bronze_block": "Bronze Block",
   "block.legendsofeldoria.purple_mushroom": "Purple Mushroom",
+
+  "block.legendsofeldoria.sound_block": "War Horn",
 
   "creativetab.legends_of_eldoria": "Legends of Eldoria"
 }
