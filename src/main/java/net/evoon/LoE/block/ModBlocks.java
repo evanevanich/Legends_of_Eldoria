@@ -2,14 +2,13 @@ package net.evoon.LoE.block;
 
 import net.evoon.LoE.LoE;
 import net.evoon.LoE.item.ModItems;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -145,9 +144,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> REFINED_CORUNDUM_BLOCK = registerBlock("refined_corundum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).sound(SoundType.AMETHYST).strength(3f).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> PURPLE_MUSHROOM = registerBlock("purple_mushroom",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RED_MUSHROOM).sound(SoundType.CROP)));
-
     public static final RegistryObject<Block> DEEPSLATE_GLOWSTONE_ORE = registerBlock("deepslate_glowstone_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).lightLevel(value -> 7).strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
 
@@ -181,8 +177,50 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.METAL).strength(3f).requiresCorrectToolForDrops()));
 
+
+
+    public static final RegistryObject<Block> ELDER_WOOD = registerBlock("elder_wood",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ELDER_WOOD_LOG = registerBlock("elder_wood_log",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ELDER_WOOD_PLANKS = registerBlock("elder_wood_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ELDER_WOOD_STAIRS = registerBlock("elder_wood_stairs",
+            () -> new StairBlock(ModBlocks.ELDER_WOOD_PLANKS.get().defaultBlockState(),BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ELDER_WOOD_SLAB = registerBlock("elder_wood_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ELDER_WOOD_BUTTON = registerBlock("elder_wood_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops(), BlockSetType.OAK,10,true));
+
+    public static final RegistryObject<Block> ELDER_WOOD_PRESSURE_PLATE = registerBlock("elder_wood_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops(), BlockSetType.OAK));
+
+    public static final RegistryObject<Block> ELDER_WOOD_FENCE = registerBlock("elder_wood_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> ELDER_WOOD_FENCE_GATE = registerBlock("elder_wood_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops(), SoundEvents.WOOD_PLACE, SoundEvents.WOOD_BREAK));
+
+    public static final RegistryObject<Block> ELDER_WOOD_WALL = registerBlock("elder_wood_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(2f).requiresCorrectToolForDrops()));
+    
+    public static final RegistryObject<Block> ELDER_WOOD_DOOR = registerBlock("elder_wood_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion().strength(2f).requiresCorrectToolForDrops(), BlockSetType.OAK));
+
+    public static final RegistryObject<Block> ELDER_WOOD_TRAPDOOR = registerBlock("elder_wood_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).noOcclusion().strength(2f).requiresCorrectToolForDrops(), BlockSetType.OAK));
+
+
+
+
+
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
-            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noLootTable()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier <T> block){

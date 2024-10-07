@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "legendsofeldoria:block/elder_wood_planks",
+    "side": "legendsofeldoria:block/elder_wood_planks",
+    "top": "legendsofeldoria:block/elder_wood_planks"
+  }
+}

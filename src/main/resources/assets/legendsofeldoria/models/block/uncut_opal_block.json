@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "legendsofeldoria:block/uncut_opal_block"
-  }
-}

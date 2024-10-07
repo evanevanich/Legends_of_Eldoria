@@ -105,6 +105,19 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.REFINED_PERIDOT_BLOCK.get());
                         output.accept(ModBlocks.BRONZE_BLOCK.get());
 
+                        output.accept(ModBlocks.ELDER_WOOD_PLANKS.get());
+                        output.accept(ModBlocks.ELDER_WOOD.get());
+                        output.accept(ModBlocks.ELDER_WOOD_LOG.get());
+                        output.accept(ModBlocks.ELDER_WOOD_SLAB.get());
+                        output.accept(ModBlocks.ELDER_WOOD_DOOR.get());
+                        output.accept(ModBlocks.ELDER_WOOD_TRAPDOOR.get());
+                        output.accept(ModBlocks.ELDER_WOOD_STAIRS.get());
+                        output.accept(ModBlocks.ELDER_WOOD_PRESSURE_PLATE.get());
+                        output.accept(ModBlocks.ELDER_WOOD_WALL.get());
+                        output.accept(ModBlocks.ELDER_WOOD_FENCE.get());
+                        output.accept(ModBlocks.ELDER_WOOD_FENCE_GATE.get());
+                        output.accept(ModBlocks.ELDER_WOOD_BUTTON.get());
+
                         output.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })

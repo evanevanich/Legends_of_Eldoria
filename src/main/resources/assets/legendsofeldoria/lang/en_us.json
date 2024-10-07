@@ -86,7 +86,20 @@
   "block.legendsofeldoria.refined_peridot_block": "Refined Peridot Block",
   "block.legendsofeldoria.dwarven_steel_block": "Dwarven Steel Block",
   "block.legendsofeldoria.bronze_block": "Bronze Block",
-  "block.legendsofeldoria.purple_mushroom": "Purple Mushroom",
+
+  "block.legendsofeldoria.elder_wood_planks": "Elder Planks",
+  "block.legendsofeldoria.elder_wood": "Elder Wood",
+  "block.legendsofeldoria.elder_wood_stairs": "Elder Wood Stairs",
+  "block.legendsofeldoria.elder_wood_slab": "Elder Wood Slab",
+  "block.legendsofeldoria.elder_wood_button": "Elder Wood Button",
+  "block.legendsofeldoria.elder_wood_pressure_plate": "Elder Wood Pressure Plate",
+  "block.legendsofeldoria.elder_wood_fence": "Elder Wood Fence",
+  "block.legendsofeldoria.elder_wood_fence_gate": "Elder Wood Fence Gate",
+  "block.legendsofeldoria.elder_wood_wall": "Elder Wood Wall",
+  "block.legendsofeldoria.elder_wood_door": "Elder Wood Door",
+  "block.legendsofeldoria.elder_wood_trapdoor": "Elder Wood Trapdoor",
+
+
 
   "block.legendsofeldoria.sound_block": "War Horn",
 
