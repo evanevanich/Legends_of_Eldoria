@@ -18,7 +18,6 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ITHILANIUM.get()))
                     .title(Component.translatable("creativetab.legends_of_eldoria"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.DWARVEN_STEEL.get());
                         output.accept(ModItems.ITHILANIUM.get());
                         output.accept(ModItems.ITHILANIUM_INGOT.get());
                         output.accept(ModItems.UNCUT_QUARTZ.get());
@@ -45,14 +44,30 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.PERIDOT_GEM.get());
                         output.accept(ModItems.BRONZE_INGOT.get());
 
+                        output.accept(ModItems.DWARVEN_STEEL.get());
+                        output.accept(ModBlocks.DWARVEN_STEEL_BLOCK.get());
+                        output.accept(ModItems.DWARVEN_SWORD.get());
+                        output.accept(ModItems.DWARVEN_AXE.get());
+                        output.accept(ModItems.DWARVEN_PICKAXE.get());
+                        output.accept(ModItems.DWARVEN_SHOVEL.get());
+                        output.accept(ModItems.DWARVEN_HOE.get());
+                        output.accept(ModItems.DWARVEN_BATTLEAXE.get());
+                        output.accept(ModItems.DWARVEN_DAGGER.get());
+                        output.accept(ModItems.DWARVEN_HALBERD.get());
+                        output.accept(ModItems.DWARVEN_HATCHET.get());
+                        output.accept(ModItems.DWARVEN_KNIFE.get());
+                        output.accept(ModItems.DWARVEN_PIKE.get());
+                        output.accept(ModItems.DWARVEN_SPEAR.get());
+
+                        output.accept(ModItems.ELVEN_STAFF.get());
+
                         output.accept(ModItems.PINE_CONE.get());
 
-                        output.accept(ModItems.ORE_DIVINING_ROD.get());
+                        output.accept(ModItems.ORE_DIVINATION_RUNE.get());
 
                         output.accept(ModItems.RAT_SKEWER.get());
                         output.accept(ModItems.RAT_SKEWER_COOKED.get());
 
-                        output.accept(ModBlocks.DWARVEN_STEEL_BLOCK.get());
                         output.accept(ModBlocks.ITHILANIUM_BLOCK.get());
                         output.accept(ModBlocks.RAW_ITHILANIUM_BLOCK.get());
                         output.accept(ModBlocks.ITHILANIUM_ORE.get());

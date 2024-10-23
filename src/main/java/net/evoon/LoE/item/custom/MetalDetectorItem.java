@@ -54,7 +54,7 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.legendsofeldoria.ore_divining_rod.tooltip"));
+        pTooltipComponents.add(Component.translatable("tooltip.legendsofeldoria.ore_divination_rune.tooltip"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 

@@ -3,8 +3,7 @@ package net.evoon.LoE.item;
 import net.evoon.LoE.LoE;
 import net.evoon.LoE.item.custom.FuelItem;
 import net.evoon.LoE.item.custom.MetalDetectorItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -98,8 +97,57 @@ public class ModItems {
 
 
 
-    public static final RegistryObject<Item> ORE_DIVINING_ROD = ITEMS.register("ore_divining_rod",
+
+    public static final RegistryObject<Item> DWARVEN_SWORD = ITEMS.register("dwarven_sword",
+            () -> new SwordItem(ModToolTiers.DWARVEN, 4,2, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_PICKAXE = ITEMS.register("dwarven_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.DWARVEN, 1, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_AXE = ITEMS.register("dwarven_axe",
+            () -> new AxeItem(ModToolTiers.DWARVEN, 4, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_SHOVEL = ITEMS.register("dwarven_shovel",
+            () -> new ShovelItem(ModToolTiers.DWARVEN, 0,0, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_HOE = ITEMS.register("dwarven_hoe",
+            () -> new HoeItem(ModToolTiers.DWARVEN, 0,0, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_BATTLEAXE = ITEMS.register("dwarven_battleaxe",
+            () -> new AxeItem(ModToolTiers.DWARVEN, 7,1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_DAGGER = ITEMS.register("dwarven_dagger",
+            () -> new SwordItem(ModToolTiers.DWARVEN, 2,3, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_HALBERD = ITEMS.register("dwarven_halberd",
+            () -> new SwordItem(ModToolTiers.DWARVEN, 7,1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_HATCHET = ITEMS.register("dwarven_hatchet",
+            () -> new AxeItem(ModToolTiers.DWARVEN, 7,2, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_KNIFE = ITEMS.register("dwarven_knife",
+            () -> new ShearsItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_PIKE = ITEMS.register("dwarven_pike",
+            () -> new SwordItem(ModToolTiers.DWARVEN, 7,1, new Item.Properties()));
+
+    public static final RegistryObject<Item> DWARVEN_SPEAR = ITEMS.register("dwarven_spear",
+            () -> new SwordItem(ModToolTiers.DWARVEN, 7,1, new Item.Properties()));
+
+
+
+    public static final RegistryObject<Item> ORE_DIVINATION_RUNE = ITEMS.register("ore_divination_rune",
             () -> new MetalDetectorItem(new Item.Properties().durability(15)));
+
+
+
+
+    public static final RegistryObject<Item> ELVEN_STAFF = ITEMS.register("elven_staff",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+
+
+
 
 
 

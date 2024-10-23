@@ -95,6 +95,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
 
                 );
+
+        this.tag(ModTags.Blocks.NEEDS_DWARVEN_TOOL)
+                .add(ModBlocks.ADAMANTITE_BLOCK.get(),
+                        ModBlocks.ELDER_WOOD.get(),
+                        ModBlocks.ELDER_WOOD_LOG.get()
+
+
+                );
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.ELDER_WOOD_FENCE.get()
 

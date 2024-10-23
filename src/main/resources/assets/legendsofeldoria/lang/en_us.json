@@ -23,13 +23,29 @@
   "item.legendsofeldoria.ruby_gem": "Ruby Gemstone",
   "item.legendsofeldoria.uncut_peridot": "Uncut Peridot",
   "item.legendsofeldoria.peridot_gem": "Peridot Gemstone",
-  "item.legendsofeldoria.dwarven_steel": "Dwarven Steel",
   "item.legendsofeldoria.bronze_ingot": "Bronze Ingot",
+
+
+  "item.legendsofeldoria.dwarven_steel": "Dwarven Steel",
+  "item.legendsofeldoria.dwarven_sword": "Dwarven Sword",
+  "item.legendsofeldoria.dwarven_axe": "Dwarven Axe",
+  "item.legendsofeldoria.dwarven_pickaxe": "Dwarven Pickaxe",
+  "item.legendsofeldoria.dwarven_shovel": "Dwarven Shovel",
+  "item.legendsofeldoria.dwarven_hoe": "Dwarven Hoe",
+  "item.legendsofeldoria.dwarven_battleaxe": "Dwarven Battle-axe",
+  "item.legendsofeldoria.dwarven_dagger": "Dwarven Dagger",
+  "item.legendsofeldoria.dwarven_halberd": "Dwarven Halberd",
+  "item.legendsofeldoria.dwarven_hatchet": "Dwarven Hatchet",
+  "item.legendsofeldoria.dwarven_knife": "Dwarven Knife",
+  "item.legendsofeldoria.dwarven_pike": "Dwarven Pike",
+  "item.legendsofeldoria.dwarven_spear": "Dwarven Spear",
 
   "item.legendsofeldoria.pine_cone": "Pine Cone",
 
-  "item.legendsofeldoria.ore_divining_rod": "Ore Divination Rune",
-  "tooltip.legendsofeldoria.ore_divining_rod.tooltip": "A Dwarvish Rune embued with the power to detect minerals underground",
+  "item.legendsofeldoria.ore_divination_rune": "Ore Divination Rune",
+  "tooltip.legendsofeldoria.ore_divination_rune.tooltip": "A Dwarvish Rune embued with the power to detect minerals underground",
+
+  "item.legendsofeldoria.elven_staff": "Elven Staff",
 
   "item.legendsofeldoria.rat_skewer": "Raw Rat Skewer",
   "item.legendsofeldoria.rat_skewer_cooked": "Cooked Rat Skewer",
