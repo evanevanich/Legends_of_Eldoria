@@ -1,0 +1,14 @@
+// 1.20.1	2024-10-23T15:20:50.0020175	Tags for minecraft:block mod id legendsofeldoria
+16f907e068d099176db812c5732b0414209a2c46 data/forge/tags/blocks/needs_netherite_tool.json
+3759a273a780d2dfecd4ba226def47b526c4ae57 data/legendsofeldoria/tags/blocks/metal_detector_valuables.json
+16f907e068d099176db812c5732b0414209a2c46 data/legendsofeldoria/tags/blocks/needs_dwarven_tool.json
+6b66c2a1485ec348f228e96217006174bf3b6976 data/minecraft/tags/blocks/fences.json
+96d2988a95dd5b4e38a9ad36ffe18801e554fb61 data/minecraft/tags/blocks/fence_gates.json
+7a2c6f211c304b629ae1e0f2030a9a4c388c8de7 data/minecraft/tags/blocks/mineable/axe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/hoe.json
+9974d6f88e677477e75116c188fe5d0077d43130 data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/mineable/shovel.json
+1e180e9843b8d13bd088531dcb71595fb20b7bf0 data/minecraft/tags/blocks/needs_diamond_tool.json
+b7cd067041c5a6c2b75b027b42f776c4f959c960 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+92292c5b219d7f0b98977f31c2329d78705f7bc7 data/minecraft/tags/blocks/walls.json

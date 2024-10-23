@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_elder_wood_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "legendsofeldoria:elder_wood_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_elder_wood_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "legendsofeldoria:elder_wood_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "legendsofeldoria:elder_wood_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_elder_wood_log",
+      "has_elder_wood_planks",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "legendsofeldoria:elder_wood_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

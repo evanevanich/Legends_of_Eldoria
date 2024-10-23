@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "uncut_sapphire",
+  "ingredient": {
+    "item": "legendsofeldoria:sapphire_ore"
+  },
+  "result": "legendsofeldoria:uncut_sapphire"
+}

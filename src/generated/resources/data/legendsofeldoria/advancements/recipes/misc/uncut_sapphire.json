@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "legendsofeldoria:uncut_sapphire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uncut_sapphire_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "legendsofeldoria:uncut_sapphire_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_uncut_sapphire_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "legendsofeldoria:uncut_sapphire"
+    ]
+  },
+  "sends_telemetry_event": false
+}
